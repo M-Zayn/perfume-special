@@ -1595,6 +1595,12 @@ html[dir="rtl"] .footer .copyrights img {
   margin: 0 5px 0 0;
 }
 
+@media (min-width: 1500px) {
+  html[dir="rtl"] .demo p {
+    font-size: 38px;
+  }
+}
+
 @media (max-width: 992px) {
   html[dir="rtl"] .nav-bar .zx-container .sm-screan button {
     margin: 0 0 0 5px;
@@ -1659,5 +1665,3 @@ html[dir="rtl"] .footer .copyrights img {
     font-size: 26px;
   }
 }
-
-/*# sourceMappingURL=home.css.map */
