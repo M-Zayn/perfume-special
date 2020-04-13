@@ -1041,6 +1041,8 @@ a:hover, a:focus {
     background-color: transparent;
     font-size: 24px;
     color: #fff;
+    width: 36px;
+    height: 36px;
     margin: 0 5px 0 0;
   }
   .nav-bar .zx-container .sm-screan button:last-child {
@@ -1124,6 +1126,8 @@ a:hover, a:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    font-family: ar-reg;
+    font-size: 14px;
   }
   .fixed-menu .menu .menu-upper .lang-switcher a img {
     margin: 0 5px 0 0;
@@ -1340,14 +1344,23 @@ a:hover, a:focus {
     width: 100px;
   }
   .header .header-inner .overlay h2 {
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
   }
   .header .header-inner .overlay a {
     display: none;
   }
+  .demo p {
+    margin: 0 0 15px 0;
+  }
   .products .products-header h2 {
     margin: 10px 0 20px 0;
+  }
+  .categories .category .overlay h3 {
+    font-size: 26px;
+  }
+  .footer .footer-slide .list-header {
+    font-size: 18px;
   }
   .footer .copyrights .payment {
     margin: 15px 0;
@@ -1381,7 +1394,7 @@ a:hover, a:focus {
     margin: 0;
   }
   .categories .category .overlay h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .footer .subscribe {
     width: 100% !important;
