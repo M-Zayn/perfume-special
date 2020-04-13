@@ -1360,6 +1360,9 @@ a:hover, a:focus {
   .nav-bar .zx-container .logo {
     width: 100px;
   }
+  .nav-bar .zx-container .search {
+    width: 100%;
+  }
   .header .header-inner .overlay h2 {
     text-align: center;
     font-size: 24px;
