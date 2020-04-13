@@ -447,8 +447,7 @@ a:hover, a:focus {
 }
 
 .nav-bar .zx-container .search span:hover {
-  background-color: #000;
-  color: #fff;
+  color: #E5C744;
 }
 
 .nav-bar .zx-container .user button {
@@ -889,12 +888,8 @@ a:hover, a:focus {
   transition: all .5s ease-out;
 }
 
-.footer .footer-slide .subscribe .send:hover {
-  background-color: black;
-}
-
 .footer .footer-slide .subscribe .send:hover span {
-  color: #fff;
+  color: #E5C744;
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
 }
@@ -1665,3 +1660,4 @@ html[dir="rtl"] .footer .copyrights img {
     font-size: 26px;
   }
 }
+
