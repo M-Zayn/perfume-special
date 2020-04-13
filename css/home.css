@@ -461,6 +461,8 @@ a:hover, a:focus {
   outline: none;
   margin: 0 5px 0 0;
   position: relative;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .nav-bar .zx-container .user button:last-child {
@@ -471,6 +473,8 @@ a:hover, a:focus {
   font-size: 18px;
   margin: 0 8px 0 0;
   color: #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .nav-bar .zx-container .user button::after {
@@ -485,8 +489,12 @@ a:hover, a:focus {
   transition: all .5s ease-in-out;
 }
 
-.nav-bar .zx-container .user button:hover::after {
-  width: 100%;
+.nav-bar .zx-container .user button:hover {
+  color: #E5C744;
+}
+
+.nav-bar .zx-container .user button:hover span {
+  color: #E5C744;
 }
 
 .nav-bar .zx-container .sm-screan {
@@ -1494,6 +1502,7 @@ html[dir="rtl"] .header .owl-carousel .owl-dots .owl-dot:last-child {
 
 html[dir="rtl"] .demo p {
   font-family: ar-reg;
+  font-size: 32px;
   margin: 0 0 15px 0;
 }
 
@@ -1651,3 +1660,4 @@ html[dir="rtl"] .footer .copyrights img {
   }
 }
 
+/*# sourceMappingURL=home.css.map */
