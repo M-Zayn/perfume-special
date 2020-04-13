@@ -259,7 +259,7 @@ a:hover, a:focus {
 /*------ navbar start ------*/
 .nav-bar {
   background-color: black;
-  padding: 25px 0 23px 0;
+  padding: 25px 0 20px 0;
 }
 
 .nav-bar .zx-container {
@@ -373,14 +373,14 @@ a:hover, a:focus {
 
 .nav-bar .zx-container .search {
   position: relative;
-  background-color: white;
-  width: 276px;
+  width: 320px;
   height: 43px;
 }
 
 .nav-bar .zx-container .search input {
-  width: 100%;
+  width: 276px;
   height: 100%;
+  background-color: white;
   outline: none;
   border: none;
   padding: 3px 18px 0 18px;
@@ -437,7 +437,7 @@ a:hover, a:focus {
   color: #000;
   position: absolute;
   top: 50%;
-  right: 12px;
+  right: 57px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: all .5s ease-in-out;
@@ -515,7 +515,7 @@ a:hover, a:focus {
 }
 
 .nav-bar .nav-list li {
-  margin: 0 38px 0 0;
+  margin: 0 20px;
 }
 
 .nav-bar .nav-list li a {
@@ -1034,6 +1034,10 @@ a:hover, a:focus {
   .nav-bar {
     padding: 10px 0 10px 0;
   }
+  .nav-bar .zx-container .search input {
+    width: 100%;
+    padding: 0 18px;
+  }
   .nav-bar .zx-container .search span {
     width: 35px;
     height: 35px;
@@ -1450,7 +1454,7 @@ html[dir="rtl"] .nav-bar .zx-container .user button span {
 html[dir="rtl"] .nav-bar .zx-container .search span {
   font-size: 16px;
   right: unset;
-  left: 12px;
+  left: 57px;
 }
 
 html[dir="rtl"] .nav-bar .zx-container .search input {
@@ -1480,14 +1484,6 @@ html[dir="rtl"] .nav-bar .zx-container .search input::-ms-input-placeholder {
 html[dir="rtl"] .nav-bar .zx-container .search input::placeholder {
   font-family: ar-reg;
   font-size: 14px;
-}
-
-html[dir="rtl"] .nav-bar .nav-list li {
-  margin: 0 0 0 42px;
-}
-
-html[dir="rtl"] .nav-bar .nav-list li:last-child {
-  margin: 0;
 }
 
 html[dir="rtl"] .nav-bar .nav-list li a {
@@ -1621,6 +1617,10 @@ html[dir="rtl"] .footer .copyrights img {
   html[dir="rtl"] .nav-bar .zx-container .sm-screan button:last-child {
     margin: 0;
   }
+  html[dir="rtl"] .nav-bar .zx-container .search span {
+    right: unset;
+    left: 5px;
+  }
   html[dir="rtl"] .fixed-menu .menu {
     left: unset;
     right: -260px;
@@ -1678,3 +1678,5 @@ html[dir="rtl"] .footer .copyrights img {
     font-size: 26px;
   }
 }
+
+/*# sourceMappingURL=home.css.map */
