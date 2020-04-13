@@ -1451,6 +1451,16 @@ html[dir="rtl"] .nav-bar .zx-container .user button span {
   margin: 0 0 0 8px;
 }
 
+html[dir="rtl"] .nav-bar .zx-container .user {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 html[dir="rtl"] .nav-bar .zx-container .search span {
   font-size: 16px;
   right: unset;
@@ -1679,4 +1689,3 @@ html[dir="rtl"] .footer .copyrights img {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
