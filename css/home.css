@@ -24,12 +24,12 @@ body {
 
 @font-face {
   font-family: "reg";
-  src: url("../fonts/Adobe Arabic.ttf");
+  src: url("../fonts/Adobe-Arabic.ttf");
 }
 
 @font-face {
   font-family: "bold";
-  src: url("../fonts/Adobe Arabic Bold.otf");
+  src: url("../fonts/Adobe-Arabic-Bold.otf");
 }
 
 /*------ for arabic ------*/
@@ -1661,3 +1661,4 @@ html[dir="rtl"] .footer .copyrights img {
 }
 
 /*# sourceMappingURL=home.css.map */
+
