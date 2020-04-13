@@ -717,7 +717,8 @@ a:hover, a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(18, 18, 18, 0.6);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, rgba(18, 18, 18, 0.6)));
+  background-image: linear-gradient(transparent 0%, rgba(18, 18, 18, 0.6) 50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,7 +735,6 @@ a:hover, a:focus {
   margin: 0 0 65px 0;
   font-family: reg;
   font-size: 36px;
-  font-weight: bold;
   color: white;
   text-transform: uppercase;
   position: relative;
@@ -1000,15 +1000,9 @@ a:hover, a:focus {
 }
 
 /*------ responsive -------*/
-@media (min-width: 1900px) {
-  .container {
-    width: 1600px;
-  }
-}
-
 @media (min-width: 1500px) {
   .container {
-    width: 1400px;
+    width: 1408px;
   }
   .owl-carousel .owl-item img {
     width: 100%;
@@ -1275,7 +1269,7 @@ a:hover, a:focus {
     margin: 0;
   }
   .categories .category .overlay h3::after {
-    width: 80%;
+    width: 40%;
     bottom: -10px;
   }
   .categories .category img {
@@ -1367,9 +1361,6 @@ a:hover, a:focus {
   }
   .categories .category .overlay h3 {
     font-size: 26px;
-  }
-  .footer .footer-slide .list-header {
-    font-size: 18px;
   }
   .footer .copyrights .payment {
     margin: 15px 0;
@@ -1659,6 +1650,4 @@ html[dir="rtl"] .footer .copyrights img {
     font-size: 26px;
   }
 }
-
-/*# sourceMappingURL=home.css.map */
 
