@@ -1025,6 +1025,9 @@ a:hover, a:focus {
   .nav-bar .zx-container .lang {
     display: none;
   }
+  .nav-bar .zx-container .user {
+    width: unset;
+  }
   .nav-bar .zx-container .user button {
     display: none;
   }
@@ -1052,7 +1055,7 @@ a:hover, a:focus {
     outline: none;
     border: none;
     background-color: transparent;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     width: 36px;
     height: 36px;
@@ -1192,6 +1195,7 @@ a:hover, a:focus {
   }
   .fixed-menu .menu .menu-list > ul ul li a {
     font-family: reg;
+    font-size: 20px;
   }
   .fixed-menu .menu .menu-list > ul .slide {
     position: relative;
@@ -1366,12 +1370,14 @@ a:hover, a:focus {
   }
   .demo p {
     margin: 0 0 15px 0;
+    font-size: 22px;
   }
   .products .products-header h2 {
     margin: 10px 0 20px 0;
+    font-size: 28px;
   }
   .categories .category .overlay h3 {
-    font-size: 26px;
+    font-size: 25px;
   }
   .footer .copyrights .payment {
     margin: 15px 0;
@@ -1393,19 +1399,6 @@ a:hover, a:focus {
   }
   .footer .copyrights .copy span:nth-of-type(2) {
     display: none;
-  }
-}
-
-@media (max-width: 360px) {
-  .nav-bar .zx-container .search {
-    width: 100%;
-  }
-  .header .header-inner .overlay h2 {
-    font-size: 24px;
-    margin: 0;
-  }
-  .categories .category .overlay h3 {
-    font-size: 24px;
   }
   .footer .subscribe {
     width: 100% !important;
@@ -1627,6 +1620,12 @@ html[dir="rtl"] .footer .copyrights img {
   html[dir="rtl"] .nav-bar .zx-container .sm-screan button:last-child {
     margin: 0;
   }
+  html[dir="rtl"] .nav-bar .zx-container .user {
+    width: unset;
+  }
+  html[dir="rtl"] .nav-bar .zx-container .user button {
+    font-size: 20px;
+  }
   html[dir="rtl"] .nav-bar .zx-container .search span {
     right: unset;
     left: 5px;
@@ -1665,6 +1664,9 @@ html[dir="rtl"] .footer .copyrights img {
   html[dir="rtl"] .fixed-menu .menu .menu-list > ul ul {
     padding: 0 9px 0 0;
   }
+  html[dir="rtl"] .fixed-menu .menu .menu-list > ul ul a {
+    font-size: 16px;
+  }
   html[dir="rtl"] .header .header-inner .overlay a {
     font-size: 15px;
   }
@@ -1676,16 +1678,16 @@ html[dir="rtl"] .footer .copyrights img {
 
 @media (max-width: 480px) {
   html[dir="rtl"] .header .header-inner .overlay h2 {
-    font-size: 33px;
+    font-size: 24px;
   }
   html[dir="rtl"] .demo p {
-    font-size: 25px;
+    font-size: 20px;
   }
-}
-
-@media (max-width: 320px) {
-  html[dir="rtl"] .header .header-inner .overlay h2 {
+  html[dir="rtl"] .products .products-header h2 {
     font-size: 26px;
+  }
+  html[dir="rtl"] .categories .category .overlay h3 {
+    font-size: 25px;
   }
 }
 
